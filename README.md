@@ -2,9 +2,6 @@
 
 A personal Claude Code skill set for full-stack software engineering — C#/.NET, Node/Express, React/React Native (Expo), and T-SQL/SQL Server.
 
-Named after **Sipmer** → シプマー (*Shipumā / Sipumā*), with each skill taking a Japanese role name.
-
-Also bundles grouped skill folders under `skills/` (aspire, dotnet, engineering, productivity, web); `plugin.json` lists each category folder so Claude Code loads them all.
 
 ## Skills
 
