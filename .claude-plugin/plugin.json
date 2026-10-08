@@ -1,0 +1,10 @@
+{
+  "name": "agent-sipuma",
+  "displayName": "agent-Sipumā",
+  "version": "0.1.0",
+  "description": "Full-stack software engineering skills: shogun (plan), takumi (build), sensei (review), kintsugi (debug).",
+  "author": {
+    "name": "Jossel Alfred R. Rempis"
+  },
+  "keywords": ["software-engineering", "dotnet", "tsql", "react-native", "code-review", "debugging"]
+}
