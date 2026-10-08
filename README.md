@@ -58,6 +58,10 @@ Skills are then namespaced: `/agent-sipuma:takumi`, `/agent-sipuma:sensei`, etc.
 2. Frontmatter needs `name` (matching the folder) and `description` (this decides when the skill triggers — say *when*, not just *what*).
 3. Keep `SKILL.md` focused; move long reference material into sibling files and link them.
 
+## Credits
+
+- Most of `skills/engineering/` and all of `skills/productivity/` come from [mattpocock/skills](https://github.com/mattpocock/skills) by Matt Pocock (MIT). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 ## Author
 
 Jossel Alfred R. Rempis (Aj / Sipmer)
