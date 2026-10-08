@@ -4,6 +4,8 @@ A personal Claude Code skill set for full-stack software engineering — C#/.NET
 
 Named after **Sipmer** → シプマー (*Shipumā / Sipumā*), with each skill taking a Japanese role name.
 
+Also bundles grouped skill folders under `skills/` (aspire, dotnet, engineering, productivity, web); `plugin.json` lists each category folder so Claude Code loads them all.
+
 ## Skills
 
 | Skill | Kanji | Role | Use when |
@@ -18,6 +20,7 @@ Named after **Sipmer** → シプマー (*Shipumā / Sipumā*), with each skill 
 ```
 agent-Sipumā/
 ├── .claude-plugin/
+│   ├── marketplace.json
 │   └── plugin.json
 ├── skills/
 │   ├── shogun/SKILL.md
@@ -38,7 +41,16 @@ cp -r skills/* ~/.claude/skills/
 
 **Option B — project skills (one repo):** copy into that project's `.claude/skills/`.
 
-**Option C — as a plugin:** point Claude Code at this folder with `--plugin-dir`, or publish the repo to GitHub and add it through a plugin marketplace.
+**Option C — from GitHub (recommended):** this repo is its own plugin marketplace (`sipmer`).
+
+```bash
+claude plugin marketplace add Josselrempis02/sipamu
+claude plugin install agent-sipuma@sipmer
+```
+
+Skills are then namespaced: `/agent-sipuma:takumi`, `/agent-sipuma:sensei`, etc. Pull updates with `claude plugin marketplace update sipmer`.
+
+**Option D — local plugin dir:** `claude --plugin-dir ./agent-Sipumā`.
 
 ## Adding a skill
 

@@ -6,5 +6,20 @@
   "author": {
     "name": "Jossel Alfred R. Rempis"
   },
-  "keywords": ["software-engineering", "dotnet", "tsql", "react-native", "code-review", "debugging"]
+  "keywords": [
+    "software-engineering",
+    "dotnet",
+    "tsql",
+    "react-native",
+    "code-review",
+    "debugging"
+  ],
+  "skills": [
+    "./skills/",
+    "./skills/aspire/",
+    "./skills/dotnet/",
+    "./skills/engineering/",
+    "./skills/productivity/",
+    "./skills/web/"
+  ]
 }

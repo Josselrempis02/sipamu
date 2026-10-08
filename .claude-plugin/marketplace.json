@@ -1,0 +1,14 @@
+{
+  "name": "sipmer",
+  "description": "Sipmer's Claude Code plugins",
+  "owner": {
+    "name": "Jossel Alfred R. Rempis"
+  },
+  "plugins": [
+    {
+      "name": "agent-sipuma",
+      "source": "./",
+      "description": "Full-stack software engineering skills: shogun (plan), takumi (build), sensei (review), kintsugi (debug)."
+    }
+  ]
+}
