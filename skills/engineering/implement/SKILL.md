@@ -1,13 +1,17 @@
 ---
 name: implement
-description: Use when implementing an approved plan or a directly scoped code change.
+description: "Implement a piece of work based on a spec or set of tickets."
 disable-model-invocation: true
 ---
 
-Implement the approved plan. For small work without a plan, implement the user's direct requirements.
+Implement the work described by the user in the spec or tickets.
 
-Use [testing](../testing/SKILL.md) for repository test conventions, test design, and focused validation. Complete its validation criteria before review.
+If the user passes a ticket reference, fetch it from the issue tracker and state its title before starting. If the reference is ambiguous, ask.
 
-After validation, use [code-review](../code-review/SKILL.md) when a standards and requirements review could catch a meaningful defect. Review the actual working changes, including relevant untracked files. Skip independent review for pure mechanical changes.
+Call the Skill tool with "tdd" where possible, at pre-agreed seams.
 
-Leave changes uncommitted unless the user's request already authorizes committing.
+Run typechecking regularly, single test files regularly, and the full test suite once at the end.
+
+Once done, call the Skill tool with "code-review" to review the work.
+
+Commit your work to the current branch.
